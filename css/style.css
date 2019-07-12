@@ -1,0 +1,186 @@
+/* Color Scheme  - https://color.adobe.com/mythemes */
+
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto&display=swap');
+
+
+.wrapper {
+    padding: 0;
+    margin: 0 auto;
+    background-color: #DCFFDB;
+    line-height: 1.5;
+    font-size: 0.75rem;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #38A9FF;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul li {
+    display: block;
+    width:100%;
+    padding: 0.25rem;
+
+}
+
+li:hover {
+    background-color: #91DB17;
+}
+
+ul li a {
+    color: #fff;
+    font-family: 'PT Serif', serif;
+    font-size: 1.125rem;
+
+}
+
+ul li a:hover {
+    text-decoration: none;
+
+}
+
+.jumbotron {
+    background-color: #DCFFDB;
+    color: #fff;
+    background-image: url(../img/light-bulb-2632075_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-position: left;
+}
+
+h1 {
+    font-size: 2.531rem;
+    font-family: 'PT Serif', serif;
+}
+
+h2 {
+    font-size: 1.688rem;
+}
+
+.jumbotron p {
+    color: #fff;
+    background-color: #91DB17;
+    padding: 0.5rem;
+    box-shadow: 5px 5px lightblue;
+}
+
+button {
+    margin-bottom: 0.25rem;
+    border: 1px solid #fff;
+    border-radius: 20px 20px 20px 2px;
+    background-color: #91DB17;
+    color: #fff;
+    padding: 0.5rem;
+    font-size: 1.1258rem;
+
+}
+
+.icons {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+
+.fab {
+    color: #38A9FF;
+}
+
+.fab:hover {
+    color: white;
+}
+
+footer {
+    color: #fff;
+    background-color: #58E8E4;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: 5rem;
+}
+
+footer p {
+    margin: 0 auto;
+    font-size: 0.75rem;
+
+}
+
+.dataLoad {
+    margin: 0 auto;
+    padding: 2rem;
+
+}
+
+.solPhoto {
+    width: 85%;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+#active {
+    background-color: #58E8E4;
+}
+
+.title {
+    padding: 2rem;
+    text-align: center;
+    color: #38A9FF;
+
+}
+
+.details {
+    text-align: justify;
+    padding-top: 1rem;
+}
+
+
+
+@media (min-width: 30rem) {
+
+    .wrapper {
+        max-width: 60rem;
+        font-size: 1rem;
+        line-height: 1.6;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        list-style: none;
+
+    }
+
+    nav ul li {
+        display: inline-block;
+        padding: 0.125rem;
+        width: 20%;
+
+    }
+
+    nav ul li a {
+        font-size: 1.245rem;
+        text-align:center;
+    }
+
+    h1 {
+        font-size: 3.375rem;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+
+    .solPhoto {
+        width: 100%;
+    }
+
+    .dataLoad {
+        padding: 0;
+    }
+
+}
