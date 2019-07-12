@@ -14,7 +14,7 @@
 nav ul {
     list-style: none;
     background-color: #38A9FF;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'verdana', sans-serif;
 }
 
 nav ul li {
@@ -30,7 +30,7 @@ li:hover {
 
 ul li a {
     color: #fff;
-    font-family: 'PT Serif', serif;
+    font-family: 'PT Serif', 'helvetica', serif;
     font-size: 1.125rem;
 
 }
@@ -52,7 +52,7 @@ ul li a:hover {
 
 h1 {
     font-size: 2.531rem;
-    font-family: 'PT Serif', serif;
+    font-family: 'PT Serif', 'helvetica', serif;
 }
 
 h2 {
